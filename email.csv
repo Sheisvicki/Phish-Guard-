@@ -1,0 +1,12 @@
+text,label
+"Urgent: Your account will be locked in 24 hours. Verify now at: https://secure-login-verify.com",Phishing
+"Dear Jordan, your subscription has been successfully renewed. Thank you for staying with us.",Safe
+"Congratulations! You have won a $1000 Amazon Gift Card. Claim it here: http://bit.ly/claim-prize-99",Phishing
+"Hey, are we still meeting for lunch at 1 PM today? Let me know if you're running late.",Safe
+"Verify your banking details immediately to avoid account suspension. Click here.",Phishing
+"The project deadline has been moved to Friday morning. Please update the Notion board.",Safe
+"Your Netflix payment failed. Update your credit card information here to keep watching.",Phishing
+"Please find the attached invoice for your recent purchase from the supply chain department.",Safe
+"SECURITY ALERT: Someone tried to log into your account from Russia. If this wasn't you, click here.",Phishing
+"I've shared the new logo designs with you on Illustrator. Let me know what you think!",Safe
+
