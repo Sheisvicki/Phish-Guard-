@@ -50,7 +50,8 @@ def predict():
         prediction = nb_model.predict(vec)[0]
         
         verdict = "🚨 Phishing Detected" if prediction == 1 else "✅ Safe Email"
-        return render_template('index.html', prediction_text=verdict)
+        return render_template('index.html', prediction_text=verdict, original_text=email_content)
+
 
 # === Dashboard Chart Generator ===
 def generate_dashboard():
