@@ -77,3 +77,12 @@ def generate_dashboard():
     plt.ylabel("Count")
     plt.savefig("static/charts.png")
     plt.close()
+
+# Create the dashboard chart when the app starts
+generate_dashboard()
+
+if __name__ == "__main__":
+    import os
+    # Render uses a dynamic "PORT" - this line tells Python where to listen
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
