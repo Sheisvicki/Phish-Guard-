@@ -34,6 +34,14 @@ nb_model = MultinomialNB().fit(X_train_vec, y_train)
 def home():
     return render_template('index.html')
 
+@app.route('/awareness')
+def awareness():
+    return render_template('awareness.html')
+
+@app.route('/dashboard')
+def dashboard():
+    return render_template('dashboard.html')
+
 @app.route('/predict', methods=['POST'])
 def predict():
     if request.method == 'POST':
